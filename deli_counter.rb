@@ -11,7 +11,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli)
    katz_deli.push(name)
    counter = 1
   katz_deli.each_with_index do |name|
