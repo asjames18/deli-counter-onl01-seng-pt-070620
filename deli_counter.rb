@@ -13,7 +13,7 @@ end
 
 def take_a_number(katz_deli, name)
    katz_deli.push(name)
-   counter = 1
+   counter = 2
   katz_deli.each_with_index do |name|
     puts "Welcome, #{name}. You are number #{counter} in line."
     counter += 1
