@@ -12,10 +12,10 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  #puts "Welcome, #{name}. You are number #{katz_deli.index} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli.index} in line."
   katz_deli.each_with_index do |index|
     index += 1
-    puts "Welcome, #{name}". You are number #{index} in line."
+    puts "Welcome, #{name}. You are number #{index} in line."
   end
 
 
