@@ -14,10 +14,11 @@ end
 def take_a_number(katz_deli, name)
    katz_deli.push(name)
    counter = 1
-  katz_deli.each_with_index |name|
+  katz_deli.each_with_index do |name|
     puts "Welcome, #{name}. You are number #{counter} in line."
     counter += 1
   end
+end
 
 def now_serving(katz_deli)
   katz_deli.size = 0
