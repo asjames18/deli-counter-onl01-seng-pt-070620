@@ -1,4 +1,3 @@
-var katzDeli = [];
-
+def deli_counter
 
 end
