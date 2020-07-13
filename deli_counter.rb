@@ -17,7 +17,7 @@ def take_a_number(katz_deli, name)
     index += 1
     puts "Welcome, #{name}". You are number #{index} in line."
   end
-    
-  
+
+
 
 end
