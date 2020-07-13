@@ -16,6 +16,6 @@ def take_a_number(katz_deli, name)
    counter = 4
   katz_deli.each_with_index do |name|
     puts "Welcome, #{name}. You are number #{counter} in line."
-    counter += 4
+    counter += 0
   end
 end
