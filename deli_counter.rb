@@ -1,5 +1,5 @@
 def deli_counter(line)
-katz_deli = [ " "]
+katz_deli = line
 
 
 
