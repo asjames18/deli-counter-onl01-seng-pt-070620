@@ -6,5 +6,3 @@ katz_deli = []
 
 
 end
-
-deli_counter
