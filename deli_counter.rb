@@ -21,7 +21,7 @@ def take_a_number(katz_deli, name)
 
 def now_serving(katz_deli)
   katz_deli.size == 0
-  puts "there is nobody in line should."
+  puts "There is nobody in line should."
 else
   puts "Currently serving #{katz_deli[0]}"
   katz_deli.unshift
