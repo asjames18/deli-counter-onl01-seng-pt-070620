@@ -5,7 +5,7 @@ def line(katz_deli)
     sentence = "The line is currently:"
     katz_deli.each.with_index(0) do |people, index|
       index += 1
-      sentence << " #{index}, #{people}"
+      sentence << "#{index}, #{people}"
     end
     puts "#{sentence}"
   end
