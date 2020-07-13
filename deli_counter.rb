@@ -12,7 +12,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-   katz_deli <<(name)
+   katz_deli << (name)
    counter = 1
   katz_deli.each_with_index do |name|
     puts "Welcome, #{name}. You are number #{counter} in line."
