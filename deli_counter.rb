@@ -3,7 +3,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif katz_deli.length >= 1
     sentence = "The line is currently:"
-    katz_deli.each.with_index(0) do |people. index|
+    katz_deli.each.with_index(0) do |people, index|
       index += 1
       sentence << " #{index}, #{people}"
     end
