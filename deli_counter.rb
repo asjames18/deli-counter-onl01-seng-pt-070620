@@ -1,10 +1,41 @@
-def deli_counter(line, name)
+var katzDeli = [];
 
-if ("#{line} == (katz_deli)")
-  puts "there is nobody in line"
-# end
+function currentLine(line){
+  if(!line.length) {
+    return "The line is currently empty.";
+  }
+  var lineNamesandNumbers = [];
 
+  for(var i=0; i<line.length; i++) {
+    lineNamesandNumbers.push(i+1 + ". "+ line[i]);
+  }
+  console.log("The line is currently: " + lineNamesandNumbers)
+  return "The line is currently: " + lineNamesandNumbers.join(', ');
+}
 
+function nowServing(line) {
+  if(!line.length) {
+    console.log("There is nobody waiting to be served!")
+    return "There is nobody waiting to be served!"
+  } else {
+    //console.log("Currently serving " + line.shift());
+    return "Currently serving " + line.shift();
+  }
+}
 
+function takeANumber(line, name){
+  line.push(name);
 
-end
+  console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
+
+  return "Welcome, " + name + ". You are number " + line.length + " in line."
+}
+takeANumber(katzDeli, "Ada")
+takeANumber(katzDeli, "Grace")
+takeANumber(katzDeli, "Kent")
+currentLine(katzDeli);
+nowServing(katzDeli);
+takeANumber(katzDeli, "Matz");
+currentLine(katzDeli);
+nowServing(katzDeli);
+currentLine(katzDeli)
