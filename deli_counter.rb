@@ -4,6 +4,6 @@ katz_deli = []
 
 
 
-else "there is nobody in line"
-end
+  else "there is nobody in line"
+ end
 end
